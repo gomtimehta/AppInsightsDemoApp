@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/8fda6555-2573-410d-a366-6637bccdc3e6/resourceGroups/GomtiRG/providers/microsoft.insights/components/AppInsightsDemoApp1</ApplicationInsightsResourceId>
+    <UserSecretsId>183e0e22-447e-4b8f-b3a7-62fd7777e310</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
+
+</Project>
